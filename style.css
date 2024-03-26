@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #129799;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.headernav1 {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+a {
+  color: white;
+  font-size: 2vh;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.section1 {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headerimg {
+  width: 40vw;
+}
+
+h1 {
+  font-size: 5vh;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.headernav2 {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background-color: #ffa185;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+section h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  align-items: flex-start;
+}
+
+.sectionaqua {
+  width: 90vw;
+  padding: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: 1.5vw;
+  font-family: "Roboto", sans-serif;
+  align-items: flex-start;
+}
+
+.sectionimg2 {
+  width: 30vw;
+  padding: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imgmain {
+  width: 39vw;
+  height: 15vh;
+}
+
+.sectionvejamais {
+  background-color: #ffa185;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #129799;
+  width: 100vw;
+  padding: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footernav {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+@media (min-width: 56px) and (max-width: 500px) {
+  .SectionH1 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
